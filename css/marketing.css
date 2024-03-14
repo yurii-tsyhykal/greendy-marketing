@@ -41,20 +41,34 @@ a {
 }
 
 .container {
-  width: 1210px;
+  max-width: 320px;
   margin: 0 auto;
-  padding: 0 15px;
-}
-
-.container.header-container {
-  display: flex;
-  justify-content: space-between;
+  padding: 0 16px;
 }
 
 .nav-header {
   display: flex;
-  gap: 211px;
+  justify-content: space-between;
+  align-items: center;
+  
 }
+/* hidden elements for desktop */
+@media screen and (max-width: 767px) {
+  .nav-list, .header-link-btn, .chekbox, .custom-checkbox-container {
+    display: none;
+  }
+.nav-header{
+  padding: 16px 38px;
+  box-shadow: 0px -5px 5px -5px rgba(0, 184, 113, 0.15);
+}
+
+.header-container {
+  padding: 32px 0px 0px 0px;
+}
+  
+}
+  
+/* /hidden elements for desktop */
 .nav-logo-link {
   display: block;
  
@@ -68,26 +82,17 @@ a {
    border-radius: 2px;
   background-color: #00b871;
 }
-.nav-list {
+
+.mobile-burger {
   display: flex;
-}
-.nav-list-item {
-}
-.nav-list-link {
-}
-.drop-down-menu {
-}
-.nav-list-icon {
-}
-.chekbox {
-  display: none;
-}
-.custom-checkbox-container {
-  display: none;
-}
-.toggle-button {
-}
-.header-link-btn {
-}
-.header-link-website {
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: transparent;
+  background-color: transparent;
+  line-height: 0;
+  fill: #00b871;
+  
 }
