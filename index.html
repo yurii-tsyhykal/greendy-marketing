@@ -31,20 +31,20 @@
               <a class="nav-list-link" href>Who we are</a>
             </li>
             <li class="nav-list-item">
-              <a class="nav-list-link" href
-                >What we do
-                <button
-                  class="drop-down-menu"
-                  type="button"
-                  aria-label="drop down menu navigation"
-                >
+              <button
+                class="drop-down-menu"
+                type="button"
+                aria-label="drop down menu navigation"
+              >
+                <a class="nav-list-link" href="#">
+                  What we do
                   <svg class="nav-list-icon" width="24" height="24">
                     <use
                       href="./images/images-marketing/icons.svg#icon-down-arrow"
                     ></use>
                   </svg>
-                </button>
-              </a>
+                </a>
+              </button>
             </li>
             <li class="nav-list-item">
               <a class="nav-list-link" href>Reviews</a>
@@ -59,16 +59,51 @@
             </svg>
           </button>
         </nav>
+        <div class="header-mobile-menu">
+          <ul class="header-mobile-menu-list">
+            <li class="header-mobile-menu-list-item">
+              <a class="header-mobile-menu-list-link" href="#">Who we are</a>
+            </li>
+            <li class="header-mobile-menu-list-item">
+              <a class="header-mobile-menu-list-link" href="#"
+                >What we do
+                <svg class="menu-drop-down-icon" width="12" height="8">
+                  <use href="./images/icons.svg#icon-drop-down-arrow"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-mobile-menu-list-item">
+              <a class="header-mobile-menu-list-link" href="#">Reviews</a>
+            </li>
+            <li class="header-mobile-menu-list-item">
+              <a class="header-mobile-menu-list-link" href="#">Blog</a>
+            </li>
+          </ul>
+          <button class="header-mobile-link-btn" type="button">
+            <a class="header-link-website" href="#"
+              >Get you free website review
+              <span class="mobile-link-btn-item">
+                <svg class="mobile-link-btn-icon" width="12" height="12">
+                  <use href="./images/icons.svg#icon-right-arrow"></use>
+                </svg>
+              </span>
+            </a>
+          </button>
+        </div>
         <input class="chekbox is-hidden" type="checkbox" />
         <div class="custom-checkbox-container">
           <span class="toggle-button"></span>
         </div>
         <button class="header-link-btn" type="button">
-          <a class="header-link-website" href="#"></a>
+          <a class="header-link-website" href="#"
+            >Get you free website review</a
+          >
         </button>
       </div>
     </header>
     <main></main>
     <footer></footer>
+    <script src="./js/mobile-modal.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
