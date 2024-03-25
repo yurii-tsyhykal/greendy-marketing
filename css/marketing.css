@@ -64,6 +64,13 @@ a {
   padding: 64px 0;
 }
 
+.section-subtitles {
+  margin-bottom: 16px;
+  color: #00b871;
+  font-size: 16px;
+  line-height: 1.69;
+}
+
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -118,6 +125,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 99;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -348,12 +356,6 @@ a {
 .hero-text-container {
   margin-bottom: 24px;
 }
-.hero-text {
-  margin-bottom: 16px;
-  color: #00b871;
-  font-size: 16px;
-  line-height: 1.69;
-}
 
 .hero-title {
   margin-bottom: 16px;
@@ -375,6 +377,11 @@ a {
   color: #f4fbf7;
   font-size: 18px;
   line-height: 1.56;
+  transition: background-color 250ms linear;
+}
+
+.hero-button:hover {
+  background-color: #2fdf84;
 }
 
 .rectangle {
@@ -431,11 +438,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 17px;
   padding-right: 17px;
+  padding-left: 17px;
 }
-.logo-company-item {
-}
+
 .logo-company-icon-atlassian {
   fill: #00b871;
 }
@@ -443,3 +449,38 @@ a {
   fill: #d2d6dc;
 }
 /* /logo company section */
+
+/* who we are section */
+.who-we-are-text-container {
+  margin-bottom: 48px;
+}
+
+.who-we-are-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  max-width: 272px;
+}
+.who-we-are-text {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+}
+.who-we-are-link {
+  display: inline-block;
+  min-width: none;
+  width: 154px;
+  min-height: 45px;
+  padding: 14px 32px;
+  border-radius: 4px;
+  background-color: #161e2e;
+  color: #f4fbf7;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.who-we-are-image-container {
+  padding: 15px 0;
+}
+/* /who we are section */
