@@ -456,10 +456,10 @@ a {
 }
 
 .who-we-are-title {
+  max-width: 272px;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 24px;
-  max-width: 272px;
 }
 .who-we-are-text {
   margin-bottom: 24px;
@@ -469,8 +469,8 @@ a {
 }
 .who-we-are-link {
   display: inline-block;
-  min-width: none;
   width: 154px;
+  min-width: none;
   min-height: 45px;
   padding: 14px 32px;
   border-radius: 4px;
@@ -484,3 +484,43 @@ a {
   padding: 15px 0;
 }
 /* /who we are section */
+/* ecommerce section */
+.ecomm-section {
+  background-color: #f4fbf7;
+}
+
+.ecommerce-title {
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.ecommerce-list-item {
+  cursor: pointer;
+  padding: 32px 24px;
+  transition: background-color 250ms linear, box-shadow 250ms linear,
+    border-radius 250ms linear;
+}
+
+.ecommerce-list-item:hover,
+.ecommerce-list-item:focus {
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 6px 16px 4px rgba(47, 223, 132, 0.15);
+}
+
+.ecomm-icon {
+  fill: currentColor;
+  margin-bottom: 32px;
+}
+.ecomm-list-subtitle {
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.ecomm-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.69;
+}
+/* /ecommerce section */
