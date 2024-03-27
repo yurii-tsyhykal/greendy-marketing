@@ -495,9 +495,13 @@ a {
   font-size: 24px;
 }
 
+.ecommerce-list {
+  margin-bottom: 48px;
+}
+
 .ecommerce-list-item {
-  cursor: pointer;
   padding: 32px 24px;
+  cursor: pointer;
   transition: background-color 250ms linear, box-shadow 250ms linear,
     border-radius 250ms linear;
 }
@@ -510,8 +514,8 @@ a {
 }
 
 .ecomm-icon {
-  fill: currentColor;
   margin-bottom: 32px;
+  fill: currentColor;
 }
 .ecomm-list-subtitle {
   margin-bottom: 12px;
@@ -523,4 +527,52 @@ a {
   font-size: 16px;
   line-height: 1.69;
 }
+
+.ecomm-btn {
+  display: inline-block;
+  min-width: 159px;
+  min-height: 48px;
+  margin-bottom: 48px;
+  padding: 12px 32px;
+  border: transparent;
+  border-radius: 4px;
+  background-color: #00b871;
+  color: #f4fbf7;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  fill: #f4fbf7;
+  transition: background-color 250ms linear;
+}
+
+.ecomm-btn:hover,
+.ecomm-btn:focus {
+  background-color: #2fdf84;
+}
+.ecomm-rarrow-icon {
+  margin-left: 6px;
+}
+
+.ecomm-image > img {
+  border-radius: 39px;
+}
 /* /ecommerce section */
+/* number section */
+.number-container {
+  background-color: #161e2e;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.number-text {
+}
+.number-list {
+}
+.number-list-item {
+}
+.number-list-numbers {
+}
+.number-list-description {
+}
+/* /number section */
